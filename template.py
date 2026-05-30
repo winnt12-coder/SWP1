@@ -1,4 +1,4 @@
-html = b"""
+html = b
 <html>
     <body>
         <form action="">
@@ -10,5 +10,5 @@ html = b"""
         <img src="/graph.png" alt="Result image here">
     </body>
 </html>
-"""
+
 
