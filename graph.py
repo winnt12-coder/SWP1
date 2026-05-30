@@ -22,7 +22,7 @@ def application(environ, start_response):
         if '' not in [a, b, c]:
             a, b, c = int(a), int(b), int(c)
             x = [n / 10.0 for n in range(-40, 41)]
-            y = [a * n ** 2 + b * n + c for n in x]
+            y = [a * n * 2 + b * n + c for n in x]
             fig = plt.figure()
             graph = plt.plot(x, y)
             plt.grid()
